@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Spagetti" src="./assets/carbonara.jpg">
-    <HelloWorld message="Spagetti Carbonara" intro="Carbonara ist ein Nudelgericht aus Pasta mit Guanciale, Ei, Pfeffer und Käse aus der italienischen Region Latium. Es gehört zu den Klassikern der italienischen Küche."
+    <HelloWorld message="Spagetti Carbonara" intro="Hier ist ein Rezept für Spgetti Carbonara."
                 button="btn1"/>
   </div>
 </template>
