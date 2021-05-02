@@ -1,10 +1,10 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>{{ message }}</h1>
     <p>
       {{intro}}
     </p>
-    <div v-if = "button==='btn1'">
+    <div v-if = "vorgehenButtonClicked===false">
     <h3>Zutaten</h3>
     <ul>
       <li v-for= "item in zutaten" :key="item.zutat">
@@ -12,7 +12,7 @@
       </li>
     </ul>
     </div>
-    <div v-else-if="button==='btn2'">
+    <div v-else>
     <h3>Vorgehen</h3>
     <ul>
       <li v-for= "step in vorgehen" :key="step.schritt">
@@ -21,8 +21,8 @@
     </ul>
     </div>
     <div class="btn-group">
-      <button v-on:click = "button='btn1'">Zutaten</button>
-      <button v-on:click = "button='btn2'">Vorgehen</button>
+      <button v-on:click = "vorgehenButtonClicked = false">Zutaten</button>
+      <button v-on:click = "vorgehenButtonClicked = true">Vorgehen</button>
     </div>
   </div>
 </template>
@@ -32,8 +32,8 @@ export default {
   name: 'HelloWorld',
   props: {
     message: String,
-    button: String,
     intro: String,
+    vorgehenButtonClicked: Boolean,
   },
   data(){
     return{
