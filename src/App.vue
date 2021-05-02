@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Spagetti" src="./assets/carbonara.jpg" >
     <div>Bildquelle: https://www.seriouseats.com/recipes/2009/09/spaghetti-alla-carbonara-recipe.html</div>
-    <HelloWorld message="Spagetti Carbonara" intro="Hier ist ein Rezept für Spgetti Carbonara."
+    <HelloWorld message="Spagetti Carbonara" intro="Hier ist ein Rezept für Spagetti Carbonara."
                 button="btn1"/>
   </div>
 </template>
