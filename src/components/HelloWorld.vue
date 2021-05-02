@@ -73,7 +73,7 @@ li {
   margin-top: 10px;
 }
 a {
-  color: #42b983;
+  color: #cca01f;
 }
 .btn-group{
   width:30%;
@@ -84,8 +84,8 @@ a {
   width:50%;
   min-width: fit-content;
   text-align: center;
-  background-color: #42b983; /* Green background */
-  border: 1px solid green; /* Green border */
+  background-color: #cca01f;
+  border: 1px solid #864f09; /* Green border */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -97,7 +97,7 @@ a {
 
 }
 .btn-group button:hover {
-  background-color: #34495e;
+  background-color: #49371f;
 }
 </style>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
