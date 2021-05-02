@@ -33,10 +33,10 @@ export default {
   props: {
     message: String,
     intro: String,
-    vorgehenButtonClicked: Boolean,
   },
   data(){
     return{
+      vorgehenButtonClicked: Boolean,
       zutaten:[
         {zutat: '200g Spagetti'},
         {zutat: '50g Parmesan, gerieben'},
